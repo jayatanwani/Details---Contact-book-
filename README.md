@@ -20,13 +20,13 @@
 
 ### Step7 - For the whole contact list, click on the button "Contacts". Below in the table, contacts are shown along with the pagination.
 
-## Step8 - For Deleting the contact, Click on the button "Delete". This will delete the respective contact.
+### Step8 - For Deleting the contact, Click on the button "Delete". This will delete the respective contact.
 
-## Step9 - For Updating the contact, Click on the button "Update". This will drag you the update form, where you can update the details and then click on the button "Update".
+### Step9 - For Updating the contact, Click on the button "Update". This will drag you the update form, where you can update the details and then click on the button "Update".
 
-## Step10 - Records can be searched by either providing a name or an email. Then, the respective records would be fetched.
+### Step10 - Records can be searched by either providing a name or an email. Then, the respective records would be fetched.
 
-## Unique email for contacts requirement is maintained. Other validations are too maintained. 
+### Unique email for contacts requirement is maintained. Other validations are too maintained. 
 
 ## CRUD APIs using POSTMAN
 
