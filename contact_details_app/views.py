@@ -78,7 +78,7 @@ def searchfilter(request):
                 return render(request,'contact_details_app/list_of_contacts.html',{'error':"Contact does not exist with the name "+"\""+request.POST['search_name']+"\""})
             return render(request,'contact_details_app/list_of_contacts.html',{'filter_contacts':Contacts})
         elif request.POST['search_email']:
-            Contacts=Contact_Book.objects.filter(name__icontains=request.POST['search_email'])
+            Contacts=Contact_Book.objects.filter(email__icontains=request.POST['search_email'])
             if Contacts.count()==0:
                 return render(request,'contact_details_app/list_of_contacts.html',{'error':"Contact does not exist with an email "+"\""+request.POST['search_email']+"\""})
             return render(request,'contact_details_app/list_of_contacts.html',{'filter_contacts':Contacts})
